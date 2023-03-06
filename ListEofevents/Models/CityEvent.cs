@@ -24,9 +24,9 @@ namespace ListEofevents.Models
         {
             if (desc != null && desc != "")
             {
-                if (desc.Length > 136)
+                if (desc.Length > 135)
                 {
-                    desc = desc[..133];
+                    desc = desc[..135];
                     desc += "...";
                 }
             }
